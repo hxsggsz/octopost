@@ -2,6 +2,8 @@ import { useState } from 'react';
 
 import scss from './App.module.scss';
 
+import './styles/base.scss';
+
 interface ITest {
   sim: string;
 }
