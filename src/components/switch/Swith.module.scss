@@ -13,22 +13,21 @@
   &:checked[type="checkbox"] {
     background: #1e1e1e;
   }
-
+  
   &:before {
     content: '';
-    transition: left 250ms;
     position: absolute;
-    top: 0;
     left: 0;
+    transition: all 250ms;
     background: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     scale: 1.1;
-    padding: 14px;
+    padding: 0.8rem;
     border-radius: 50%;
   }
   
   &:checked[type="checkbox"]:before {
-    left: 20px;
+    right: 0;
+    left: auto;
   }
 }
-
