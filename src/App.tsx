@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import Testinho from '~components/Testinho/Testinho';
+
 import scss from './App.module.scss';
 
 import './styles/base.scss';
@@ -18,6 +20,7 @@ function App(role: ITest) {
   return (
     <div className={scss.teste} id="asdasdas" onClick={() => ali('oi')}>
       <p>Hello World! SIM?</p> {role.sim} {sim}
+      <Testinho />
     </div>
   );
 }
